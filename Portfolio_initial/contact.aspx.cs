@@ -1,17 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
-namespace Portfolio_initial
+public partial class Contact : System.Web.UI.Page
 {
-    public partial class contact : System.Web.UI.Page
+    protected void Page_Load(object sender, EventArgs e)
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
 
-        }
+    }
+
+    protected void SubmitForm(object sender, EventArgs e)
+    {
+        string name = Request.Form["name"];
+        string email = Request.Form["email"];
+        string message = Request.Form["message"];
+
+        // Basic processing logic (e.g., saving to a database or sending an email)
+        // For now, we are just simulating the process.
+        Response.Write("Form submitted! We'll be in touch soon.");
     }
 }
