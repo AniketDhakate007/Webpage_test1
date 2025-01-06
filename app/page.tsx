@@ -2,16 +2,18 @@
 import Image from "next/image";
 import hero from "@/components/hero";
 import Hero from "@/components/hero";
-import { HeroParallax } from "@/components/ui/hero-parallax";
-import { MenuItem } from "@/components/ui/navbar-menu";
-import { Menu } from "@/components/ui/navbar-menu";
-import { ProductItem } from "@/components/ui/navbar-menu";
-import { HoveredLink } from "@/components/ui/navbar-menu";
+import { HeroParallax } from "@/components/ui/home com/hero-parallax";
+import { MenuItem } from "@/components/ui/home com/navbar-menu";
+import { Menu } from "@/components/ui/home com/navbar-menu";
+import { ProductItem } from "@/components/ui/home com/navbar-menu";
+import { HoveredLink } from "@/components/ui/home com/navbar-menu";
 import { useState } from "react";
 import { cn } from "@/lib/util";
+
+
 export default function Home() {
   return (
-    hero(),
+  <>{hero()}</>  
    );
 }
 export function NavbarDemo() {

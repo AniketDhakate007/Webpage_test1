@@ -1,6 +1,6 @@
 import React from 'react'
-import { Spotlight } from './ui/spotlight'
-import { HeroParallax } from './ui/hero-parallax'
+import { Spotlight } from './ui/home com/spotlight'
+import { HeroParallax } from './ui/home com/hero-parallax'
 import { products } from '@/app/page'
 import { NavbarDemo } from '@/app/page'
 
